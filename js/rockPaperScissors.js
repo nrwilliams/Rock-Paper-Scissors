@@ -58,7 +58,7 @@
 			$('.result').html("You WON!!!!");
 		}
 			$('.results-container').fadeIn();
-			$('.results-overlay').fadeIn();
+			$('.startGameBTN').hide();
 
 	}
 
