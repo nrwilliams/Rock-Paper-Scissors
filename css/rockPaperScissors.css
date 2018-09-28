@@ -1,0 +1,128 @@
+body {
+	background: #ef3535;
+}
+h2 {
+	margin-top:20px;
+    margin-bottom: 50px;
+}
+h2 span:first-child {
+	font-family: 'Abril Fatface', cursive;
+	text-transform:uppercase;
+}
+h2 span:nth-of-type(2) {
+	font-family: 'Amatic SC', cursive;
+	text-transform: uppercase;
+}
+h2 span:last-child {
+	font-family: 'Dancing Script', cursive;
+}
+
+.game-container {
+	width:100%;
+	max-width:600px;
+	margin: 0 auto;
+	text-align:center;
+	color:#fff;
+    position: fixed;
+    top: 20%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.user span {
+    float: right;
+    font-size: 9rem;
+    padding-right: 50px;
+}
+.computer span {
+    float: left;
+    font-size: 9rem;
+    padding-left: 50px;
+}
+.startGameBTN {
+	transition: all ease .5s;
+    border: 2px solid #FFFFFE;
+    box-shadow: none;
+    background: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+.startGameBTN:hover {
+	background:#fff;
+	color:#ef3535;
+	cursor:pointer;
+}
+.resetGameBTN {
+	transition: all ease .5s;
+    border: 2px solid #ef3535;
+    box-shadow: none;
+    background: none;
+    color: #ef3535;
+    font-weight: bold;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    margin: 30px auto 0px auto;
+}
+.resetGameBTN:hover {
+	background:#ef3535;
+	color:#ffffff;
+	cursor:pointer;
+}
+.user i {
+    font-size: 4rem;
+}
+.computer i {	
+    font-size: 3.4rem;
+    display: inline-block;
+    line-height: 71px;
+    padding-left: 10px;
+}
+.game-container .col-md-6:last-child:before {
+	content:'';
+	position: absolute;
+	height:70%;
+	width:2px;
+	background:#fff;
+	left:0;
+	top:2rem;
+}
+.results-container {
+    position: fixed;
+    width: 490px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 27%;
+    background: #fff;
+    padding: 30px;
+    display:none;
+    box-shadow: 2px 2px 22px #7b15158a;
+}
+.result {
+    font-size: 5rem;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+}
+.results-overlay {
+	position: fixed;
+	width:100%;
+	height:100%;
+	display: block;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	content:'';
+	display:none;
+	background:#7b15158a;
+}
